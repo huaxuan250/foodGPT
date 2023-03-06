@@ -333,7 +333,7 @@ def construct_recipe(url):
 
 def accept_url():
   while True:
-    url = input("Please input a url from AllRecipes.com: \n\n")
+    url = input("Please input a url from AllRecipes.com: \n")
     split_url = url.split("/")
     if split_url[2] != 'www.allrecipes.com':
       print("Please provide a recipe from AllRecipes.com\n")
@@ -342,6 +342,7 @@ def accept_url():
 
 def user_interface():
   # Interface happens here
+  print("Welcome to FoodGPT 1.0!")
   url = accept_url()
   steps, items = construct_recipe(url)
 
