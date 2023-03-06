@@ -15,6 +15,6 @@ A simple recipe answering machine. It supports the following command:
 # Reference:
 1. https://github.com/austin-py/337------Project-2------Recipes
 2. https://github.com/kreludan/337-recipetransformer
-3. https://github.com/haydenudelson/337-project-
+3. https://github.com/haydenudelson/337-project-2
 4. https://github.com/kapil1garg/eecs337-team3-project2
 5. https://github.com/Lazaraaus/recipe_parser_337
